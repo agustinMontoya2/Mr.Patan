@@ -1,0 +1,26 @@
+
+
+.Contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ContenedorDerecha {
+    width: 40vw;
+    margin-right: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Numero{
+    margin-top: 4vw;
+    color: #F5F500;
+    font-size:11vh;
+}
+.ContenedorNumero {
+    width: fit-content;
+    margin: auto;
+}

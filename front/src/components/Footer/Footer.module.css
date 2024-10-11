@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Chewy&family=Gloria+Hallelujah&family=Handlee&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&display=swap');
+.Footer{
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0;
+
+    width: 100%;
+    max-height: 7vh;
+    min-height: 7vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Direction {
+    font-size: 1.5vw;
+    margin: auto;
+    font-family: "Chewy", system-ui;
+    a {text-decoration: none;
+    color:aliceblue;}
+}

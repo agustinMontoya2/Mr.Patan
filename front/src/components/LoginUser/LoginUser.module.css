@@ -1,0 +1,78 @@
+.Contenedor {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: rgba(253, 254, 255, 0.845);
+    border: .2vw solid black;
+    border-radius: 1.5vw;
+
+    width: 100%;
+    min-height: 37vh;
+    max-height: 37vh;
+}
+.Nombre{
+    font-size: 3vh;
+    font-weight: 500;
+    font-family: cursive;
+    margin: .5vh 0 .5vh 3vw;
+}
+.InputNombre {
+    border-radius: .5vw;
+    margin-inline: auto;
+    margin-bottom: 1vw;
+    padding-left: .8vw;
+    width: 35vw;
+    height: 4vh;
+    font-size: 2vh;
+}
+.Contraseña{
+    margin: 0 0 -1vh 3vw;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 3vh;
+}
+.InputContraseña {
+    border-radius: .5vw;
+    margin-inline: auto;
+    padding-left: .8vw;
+    width: 32vw;
+    height: 4vh;
+    font-size: 2vh;
+}
+.Eye{
+    padding-left: .4vh;
+    width: 3vh;
+    height: fit-content;
+}
+.ContraseñaOjo {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.Iniciar{
+    border-radius: .5vw;
+    width: 15vw;
+    height: 4vh;
+    margin-inline: auto;
+    margin-top: 2vw;
+    background-color: #9ace17
+}
+.Registrar{
+    border-radius: .4vw;
+    margin-inline: auto;
+    margin-top: .8vw;
+
+    width: 10vw;
+    height: 3.5vh;
+    background-color: #F5D418;
+    margin-bottom: 2vh;
+}
+
+.IniciarHover:hover{cursor: pointer;
+background-color: #F5DF18;
+box-shadow: 0 0 15px #F5D418;}
+.Registrar:hover{cursor: pointer;
+box-shadow: 0 0 10px #F5D418;}
+

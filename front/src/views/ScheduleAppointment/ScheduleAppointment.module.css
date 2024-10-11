@@ -1,0 +1,60 @@
+.conteiner {
+    display: flex;
+    justify-content: space-around;
+    flex: 1
+}
+
+
+.Contenedor{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid, black;
+    border-radius: 3em;
+    margin: auto;
+}
+.Titulo {
+    margin-top: 1vh;
+}
+
+.ContenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0 auto 0;
+    width: 100%;
+}
+
+.Seleccionador {
+    max-width: 50vw;
+    min-width: 50vw;
+    max-height: 40vh;
+}
+
+.FechaHora {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.InputFechaHora {
+    max-width: 12vw;
+    min-width: 12vw;
+}
+
+.Separador {
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Boton {
+    margin-bottom: 2vh;
+    width: 24vw;
+    height: 4vh;
+}

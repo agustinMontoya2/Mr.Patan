@@ -1,0 +1,36 @@
+
+.Menu {
+    float: right;
+    position: fixed;
+    background-color: rgb(227, 227, 227);
+    height: 24rem;
+    width: 12rem;
+}
+
+.icon_pet{
+    margin-right: 0.7vw;
+    margin-left: 1.2vw;
+    width: 2.5vw;
+}
+
+.Drop {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.Drop button {
+    width: 5rem;
+    background-color: rgba(240, 248, 255, 0) !important;
+    border: 0;
+    transition: none; 
+    box-shadow: none; 
+}
+
+.Drop button:hover,
+.Drop button:focus,
+.Drop button:active,
+.Drop button.show {
+    background-color: rgba(240, 248, 255, 0) !important;
+    color: inherit; 
+    outline: none; 
+    box-shadow: none !important; 
+}

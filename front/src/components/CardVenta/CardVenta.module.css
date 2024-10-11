@@ -1,0 +1,59 @@
+.Tarjeta {
+    background-color: rgb(241, 237, 137);
+    width: 15rem;
+    height: 17.5rem;
+
+    border: .2rem solid black;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Tarjeta:hover{
+    scale: 115%;
+}
+
+.Foto {
+    width: 60%;
+    border: .2rem solid black;
+    border-radius: 1rem;
+}
+.ContenedorNombre {
+    
+}
+
+.Cantidad {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    h2 {
+        font-weight: bold;
+        margin-top: .3rem;
+        font-size: 1.5rem;
+    }
+}
+
+
+.Agregar {
+    width: 1.5rem;
+}
+.Restar {
+    width: 1rem;
+}
+
+.Total {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+        margin-top: .3rem;
+        height: fit-content;
+    
+    h4 {
+        font-size: 1.2rem;
+    }
+}

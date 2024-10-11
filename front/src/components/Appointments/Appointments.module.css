@@ -1,0 +1,70 @@
+
+.Contenedor {
+    width: fit-content;
+    margin-bottom: .3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Separador {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+.TituloTurnos{
+    width: 3.5em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 4.3em;
+    color: rgb(0, 0, 0);
+    background-color: rgba(122, 121, 121, 0.604);
+    border-radius: 1rem;
+    border: .02em solid black;
+}
+.Descripciones {
+    display: flex;
+    justify-content: space-between;
+}
+.ContenedorTurnos {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgba(253, 254, 255, 0.845);
+    border: .2vw solid black;
+    border-radius: 1.5vw;
+
+    min-width: 78vw;
+    max-width: 78vw;
+    min-height: 36vh;
+    max-height: 36vh;
+    overflow: scroll;
+    overflow-x: unset;
+    
+    text-align: center;
+}
+
+.Turno {
+    padding: 0 3vw 0 3vw;
+    border: .18em solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5vh;
+}
+
+.Turno h3 {
+    font-size: 1.5em;
+}
+
+.Boton {
+    margin: .2em auto 0 auto;
+    min-width: 20vw;
+    max-width: 20vw;
+    max-height: 4vh;
+    min-height: 4vh;
+    background-color: rgb(146, 243, 82);
+    border-radius: .5em;
+}

@@ -1,0 +1,53 @@
+.Separador {
+    width: 15vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Turno {
+    margin-top: .5vh;
+    background-color: aliceblue;
+    border: .18em solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+}
+
+.Turno h3 {
+    font-size: 1.5em;
+}
+
+.EstadoPendiente {
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: rgb(246, 193, 70);
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    height: 3vh;
+}
+.EstadoPendiente h3 {
+    font-size: 2.1vh;
+}
+.EstadoCancelado h3 {
+    font-size: 2.1vh;
+}
+.EstadoCancelado {
+    margin-right: 1.8em;
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: rgb(217, 63, 63);
+    width: 10em;
+    display: flex;
+    justify-content: center;
+    height: 3vh;
+}
+
+.Cancelar {
+    width: 1.8em;
+}
+.Cancelar:hover{
+    width: 2em;
+    cursor: pointer;
+}
