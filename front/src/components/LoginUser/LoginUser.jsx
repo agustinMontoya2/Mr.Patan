@@ -8,6 +8,10 @@ import { useDispatch } from "react-redux";
 import { setUser } from "../../redux/userSlice";
 
 export const LoginUser = () => {
+  // const APIURL = process.env.REACT_APP_SERVER_URL;
+  // console.log(APIURL);
+  // console.log(process.env);
+
   const dispatch = useDispatch();
   const [mostrar, setMostrar] = useState(false);
   const changeState = () => {
@@ -31,10 +35,13 @@ export const LoginUser = () => {
 
   const postLogin = async (username, password) => {
     try {
-      const user = await axios.post("http://localhost:3000/users/login", {
-        username,
-        password,
-      });
+      const user = await axios.post(
+        "https://mr-patan.onrender.com/users/login",
+        {
+          username,
+          password,
+        }
+      );
       alert("Bienvenido!");
       const usuario = user.data.User;
       dispatch(setUser(usuario));

@@ -7,7 +7,7 @@ import validate from "../../helpers/validate";
 import { Link, useNavigate } from "react-router-dom";
 
 export const RegisterUser = () => {
-  const AXIOS_URL = "http://localhost:3000/users/register";
+  const AXIOS_URL = "https://mr-patan.onrender.com/users/register";
   const [mostrar, setMostrar] = useState(false);
   const changeState = () => {
     setMostrar(!mostrar);
